@@ -1,3 +1,2 @@
 #!/bin/bash
-DYLD_LIBRARY_PATH=/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/
-/usr/local/bin/mark.64.OSX $@
+DYLD_LIBRARY_PATH=/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/ /usr/local/bin/mark.64.OSX $@
