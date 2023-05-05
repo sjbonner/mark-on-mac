@@ -6,7 +6,14 @@ Note that I have only tested this steps on an Intel based Mac. I do not have acc
 
 ## Installation
 
-Run the following commands within a terminal to install the package (known as a bottle in homebrew speak). You can skip step 1 if you already have homebrew installed. 
+Run the following commands within a terminal to install the package (known as a bottle in homebrew speak). You can skip steps 1 and/or 2 if you already have Xcode and/or homebrew installed. 
+
+1) Install Xcode
+You can either install install Xcode from the App Store or run
+```
+sudo xcode-select --install
+```
+in the terminal.
 
 1) Install homebrew:
 ```
@@ -23,6 +30,8 @@ brew install gcc
 brew tap sjbonner/tap
 brew install mark-on-mac
 ```
+
+
 
 You can check that the installation was successful by running
 ```
