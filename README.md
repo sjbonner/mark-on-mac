@@ -77,7 +77,7 @@ accept the agreement.
 
 Install the intel version of homebrew
 ```
-arch --x86_64 /bin/bash -c "($curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+arch --x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 Create an alias for easy use - I'm calling mine beer
