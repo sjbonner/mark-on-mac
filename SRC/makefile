@@ -1,4 +1,4 @@
-type = mark64
+type = markLAPACK
 #flto = -flto=auto
 flto = 
 COMPILER = gfortran
