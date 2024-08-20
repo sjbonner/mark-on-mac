@@ -55,7 +55,7 @@ else ifeq ($(type),markLAPACK)
 	# For compilation with LAPACK
 	COPTIONS = -std=f2018 -c -D ieee -D lapack -m64 -fsignaling-nans -ffpe-summary='invalid','zero','overflow','underflow' -O3 -funroll-loops -ffast-math -march=native $(flto)
   	MFLAG = -m64
-  	LINKLIBS = liblapack.a librefblas.a
+  	LINKLIBS = -llapack -lblas
 	#LINKLIBS = /usr/lib/x86_64-linux-gnu/liblapack.so /usr/lib/x86_64-linux-gnu/libblas.so
 	# euler
 	#LINKLIBS = /usr/lib64/liblapack.so /usr/lib64/libblas.so 
