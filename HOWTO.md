@@ -1,4 +1,4 @@
-# How to Update the Mark-on-Mac Homebrew Tap
+## How to Update the Mark-on-Mac Homebrew Tap
 
 I created the tap following the instructions at https://betterprogramming.pub/a-step-by-step-guide-to-create-homebrew-taps-from-github-repos-f33d3755ba74. 
 
