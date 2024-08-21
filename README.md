@@ -42,7 +42,24 @@ mark
 ```
 which should return 
 ```
+If the upgrade works the you should see something like this:
  No input file was specified, so MARK job is done.
+MARK Files:
+  i=input_file_name
+  o=output_file_name
+  r=residuals_file_name
+  v=variance-covariance_file_name
+MARK Parameters:
+  nocolor    - do not use color on output screen
+  noecho     - do not echo commands on output screen
+  batch      - no output printed to output screen (i.e., batch mode)
+  dynamic    - dynamic thread allocation used, otherwise static allocation used
+  threads=x  - specify the number of threads to be used
+                0 means use all available
+               -1 means use all available minus 1
+                otherwise use the number specified as x
+  linex=x    - print x lines per page, default is 50
+                0 means do not print page headers
 STOP No input file
 ```
 
