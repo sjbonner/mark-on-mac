@@ -14,7 +14,7 @@ The tap relies on two github repositories
 
 1. Clone or update the local version of sjbonner/Mark-on-Mac. 
 
-2. Download the zip archive containing the Mark binary from http://www.phidot.org/software/mark/rmark/linux/. Unzip it and replace copy the most recent version (the binary often contains different versions) to the binary mark.64.OSX in sjbonner/Mark-on-Mac. Commit and push the change.
+2. Download the zip archive containing the Mark binary from http://www.phidot.org/software/mark/rmark/linux/. Unzip it and replace copy the most recent version (the binary often contains different versions) to the binary mark in sjbonner/Mark-on-Mac. Commit and push the change.
 
 3. Create a new release in https://github.com/sjbonner/mark-on-mac . Note: I am naming releases as vX.Y.Z where X and Y are the Mark major and minor versions and Z is my version number (in case I release multiple versions of the tap for the same version of Mark). E.g., v10.1.1 is my first release of Mark 10.1.
 
@@ -40,7 +40,7 @@ brew update
 brew upgrade
 ```
 
-3. Check that the links `/usr/local/bin/mark` and `/usr/local/bin/mark.64.OSX` have been updated to point to the new versions.
+3. Check that the link `/usr/local/bin/mark` has been updated to point to the new versions.
 
 4. Run 
 ```
