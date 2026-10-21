@@ -21,9 +21,9 @@ in the terminal.
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-2) Install gcc:
+2) Install gcc and openblas:
 ```
-brew install gcc
+brew install gcc openblas
 ```
 
 3) Install mark:
